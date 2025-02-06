@@ -5,14 +5,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #800080; 
+    background-color: #FFFFFF; 
   }
   
   .form-container {
     max-width: 600px; 
       margin: 0 auto; 
       padding: 20px;
-      background-color: #152d7e; 
+      background-color: #800080; 
       border-radius: 10px;
   }
   
