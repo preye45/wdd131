@@ -5,21 +5,21 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #800080; /* background color */
+    background-color: #800080; 
   }
   
   .form-container {
-    max-width: 600px; /* Limits the maximum width of the form */
-      margin: 0 auto; /* Center the form on the page */
+    max-width: 600px; 
+      margin: 0 auto; 
       padding: 20px;
-      background-color: #152d7e; /* Background color to give contrast */
+      background-color: #152d7e; 
       border-radius: 10px;
   }
   
-  /*for responsiveness */
+ 
   @media (max-width: 768px) {
     form {
-        width: 90%; /* Fits 90% of screen width on smaller devices */
+        width: 90%; 
     }
   }
   
@@ -66,7 +66,7 @@ body {
   .rating input:checked ~ label,
   .rating label:hover,
   .rating label:hover ~ label {
-    color: #ffc700; /* Color for selected stars */
+    color: #ffc700; 
   }
   
   
@@ -80,7 +80,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 8px; /* Space between checkbox and text */
+    gap: 8px; 
     font-size: 16px;
     color: #ffffff;
   }
