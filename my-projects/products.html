@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Tawariowei Oyinpreye" content="Thrift products">
+    <title class="products-catalog">Products Album</title>
+    <!-- Meta Descriptions -->
+    <meta name="description" content="Different thrifts sold and their possible prices.">
+    <!-- Meta Author -->
+    <meta name="author" content="Tawariowei Oyinpreye">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/products.css">
+    <link rel="stylesheet" href="styles/products-large.css" media="screen and (min-width: 768px)">
+    <script src="scripts/products.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="titlemain">Products Catalog</h1>
+        <nav>
+            <button class="hamburger">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="https://preye45ithub.io/wdd131/">Home</a></li>
+                <li><a href="#" class="filter-btn" data-filter="old">Old</a></li>
+                <li><a href="#" class="filter-btn" data-filter="new">New</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Product Search</h2> 
+        
+        <input type="text" id="search" placeholder="Search products..." />
+    
+        <div class="gallery">
+            
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> THRIFT HOME , Bayelsa-Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
