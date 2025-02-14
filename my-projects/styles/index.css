@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #1c331c;
+    margin-bottom: 0;
+    font-weight: bold; 
+}
+
+header {
+    width: 100%;
+    background-color: #304f2b;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700; 
+}
+
+.highlight {
+    color: #fdf9f9;
+    text-align: center;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #000; 
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: transparent; 
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, text-decoration 0.3s ease;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+    background-color: #333; 
+    color: white;
+}
+
+.menu {
+    padding: 35px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: rgb(227, 239, 224);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 48%;
+    
+}
+
+.card ul li {
+    margin-bottom: 20px; 
+  }
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 2000px; 
+    height: 600px 
+}
+
+
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-text {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    text-align: center;
+}
+
+
+
+
+img.flag {
+    width: 100px;
+    height: auto;
+    align-self: flex-start; 
+    margin: 20px;
+    display: flex;
+}
+
+.image-container {
+    display: flex; 
+  }
+
+footer {
+    background-color: #304f2b;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
